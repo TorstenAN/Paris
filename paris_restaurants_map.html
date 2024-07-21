@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a4b6a4513e3378944e1c0333cf6286ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a4b6a4513e3378944e1c0333cf6286ba" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a4b6a4513e3378944e1c0333cf6286ba = L.map(
+                "map_a4b6a4513e3378944e1c0333cf6286ba",
+                {
+                    center: [48.8566, 2.3522],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a33163bcc0c285e019ce9ce5dc90ab0d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+            var marker_3754768b417dc8a201a5cf24f8f8f684 = L.marker(
+                [48.8742, 2.359],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_49f7dfc382b78000501b82953608e860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0a40e8285b3edbbb112c0d559fdb7fe7 = $(`<div id="html_0a40e8285b3edbbb112c0d559fdb7fe7" style="width: 100.0%; height: 100.0%;">241 Rue du Faubourg Saint-Martin</div>`)[0];
+            popup_49f7dfc382b78000501b82953608e860.setContent(html_0a40e8285b3edbbb112c0d559fdb7fe7);
+        
+
+        marker_3754768b417dc8a201a5cf24f8f8f684.bindPopup(popup_49f7dfc382b78000501b82953608e860)
+        ;
+
+        
+    
+    
+            var marker_9b570524b34921526e5814482c43d3d9 = L.marker(
+                [48.8745, 2.3605],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_bf6184e7dcf19dda73c2101354fe50d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_172c0ef6ea6dd97ebe4509d705de838a = $(`<div id="html_172c0ef6ea6dd97ebe4509d705de838a" style="width: 100.0%; height: 100.0%;"><a href="https://patisseriemrjacques.com/" target="_blank">Chez M. Jacques, 207 rue du faubourg saint martin</a></div>`)[0];
+            popup_bf6184e7dcf19dda73c2101354fe50d8.setContent(html_172c0ef6ea6dd97ebe4509d705de838a);
+        
+
+        marker_9b570524b34921526e5814482c43d3d9.bindPopup(popup_bf6184e7dcf19dda73c2101354fe50d8)
+        ;
+
+        
+    
+    
+            var marker_ea1b089f8f1b65179e7dc176e64f03b1 = L.marker(
+                [48.8637, 2.3793],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_20214ccd1f2550fbd55afa7758b16e9b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea56f127a4bb98280d1ad6b60e27d3e2 = $(`<div id="html_ea56f127a4bb98280d1ad6b60e27d3e2" style="width: 100.0%; height: 100.0%;"><a href="https://www.restaurantledauphin.net/" target="_blank">Le Dauphin, avenue Parmentier</a></div>`)[0];
+            popup_20214ccd1f2550fbd55afa7758b16e9b.setContent(html_ea56f127a4bb98280d1ad6b60e27d3e2);
+        
+
+        marker_ea1b089f8f1b65179e7dc176e64f03b1.bindPopup(popup_20214ccd1f2550fbd55afa7758b16e9b)
+        ;
+
+        
+    
+    
+            var marker_f19d2316f528d2ebd195f6df7eab2fef = L.marker(
+                [48.8707, 2.3663],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_d5b9a520097cc1b586af8a0215242bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e7697d6c08d574e8670801df565a2eae = $(`<div id="html_e7697d6c08d574e8670801df565a2eae" style="width: 100.0%; height: 100.0%;"><a href="https://www.leverrevole.fr/" target="_blank">Le Verre Volé, rue de lancry</a></div>`)[0];
+            popup_d5b9a520097cc1b586af8a0215242bb5.setContent(html_e7697d6c08d574e8670801df565a2eae);
+        
+
+        marker_f19d2316f528d2ebd195f6df7eab2fef.bindPopup(popup_d5b9a520097cc1b586af8a0215242bb5)
+        ;
+
+        
+    
+    
+            var marker_601d7acea0b0da5134bc51234fca4183 = L.marker(
+                [48.8711, 2.366],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_abd74300eb814bd94bcadfb2e58ee3c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b11a3532562a65221c9ae1388e7ea5e7 = $(`<div id="html_b11a3532562a65221c9ae1388e7ea5e7" style="width: 100.0%; height: 100.0%;"><a href="https://surmer.restaurant/" target="_blank">Sur Mer, 53 rue de lancry</a></div>`)[0];
+            popup_abd74300eb814bd94bcadfb2e58ee3c0.setContent(html_b11a3532562a65221c9ae1388e7ea5e7);
+        
+
+        marker_601d7acea0b0da5134bc51234fca4183.bindPopup(popup_abd74300eb814bd94bcadfb2e58ee3c0)
+        ;
+
+        
+    
+    
+            var marker_c73385ddcb9842a4ef348c57155dc841 = L.marker(
+                [48.8731, 2.3543],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_0de0a9b31dbf85ff25fbda1f12e65bf4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dec5dcabb68182b37639dc9ce4f3f4d = $(`<div id="html_2dec5dcabb68182b37639dc9ce4f3f4d" style="width: 100.0%; height: 100.0%;"><a href="https://vivantparis.com/" target="_blank">Vivant 2, 43 rue des petites ecuries</a></div>`)[0];
+            popup_0de0a9b31dbf85ff25fbda1f12e65bf4.setContent(html_2dec5dcabb68182b37639dc9ce4f3f4d);
+        
+
+        marker_c73385ddcb9842a4ef348c57155dc841.bindPopup(popup_0de0a9b31dbf85ff25fbda1f12e65bf4)
+        ;
+
+        
+    
+    
+            var marker_769e035e16314c249c44790e3a13b369 = L.marker(
+                [48.8601, 2.379],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_af47bf53e609dc4862af2ae4f7dfab44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a39fb0b4ce293323c43e863a93b3b88 = $(`<div id="html_2a39fb0b4ce293323c43e863a93b3b88" style="width: 100.0%; height: 100.0%;"><a href="https://www.leservan.fr/" target="_blank">Le Servan</a></div>`)[0];
+            popup_af47bf53e609dc4862af2ae4f7dfab44.setContent(html_2a39fb0b4ce293323c43e863a93b3b88);
+        
+
+        marker_769e035e16314c249c44790e3a13b369.bindPopup(popup_af47bf53e609dc4862af2ae4f7dfab44)
+        ;
+
+        
+    
+    
+            var marker_92cb8e2012ee389aa225ee5384679aad = L.marker(
+                [48.8592, 2.3573],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_d838f0b07af22a4641a5beffb7ab08d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cdd988f4e8051c190ee3a7567fc69676 = $(`<div id="html_cdd988f4e8051c190ee3a7567fc69676" style="width: 100.0%; height: 100.0%;"><a href="https://www.bombanceparis.fr/" target="_blank">Bombance, 40 rue des blancs Manteaux</a></div>`)[0];
+            popup_d838f0b07af22a4641a5beffb7ab08d5.setContent(html_cdd988f4e8051c190ee3a7567fc69676);
+        
+
+        marker_92cb8e2012ee389aa225ee5384679aad.bindPopup(popup_d838f0b07af22a4641a5beffb7ab08d5)
+        ;
+
+        
+    
+    
+            var marker_8b724237e4835b96c520707e17e2fc0b = L.marker(
+                [48.8656, 2.3362],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_d397460d1fbbbcb0ff546c8f1c018406 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_91d15dfe26ba31b8807245ef6aa81786 = $(`<div id="html_91d15dfe26ba31b8807245ef6aa81786" style="width: 100.0%; height: 100.0%;"><a href="https://www.legrandcolbert.fr/" target="_blank">Le Grand Colbert</a></div>`)[0];
+            popup_d397460d1fbbbcb0ff546c8f1c018406.setContent(html_91d15dfe26ba31b8807245ef6aa81786);
+        
+
+        marker_8b724237e4835b96c520707e17e2fc0b.bindPopup(popup_d397460d1fbbbcb0ff546c8f1c018406)
+        ;
+
+        
+    
+    
+            var marker_826563592829a8351cecbafbe2e1dd78 = L.marker(
+                [48.8446, 2.373],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_654995cb15371b446cc1b46dd39a8d7c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e671076fd590cc60024d468eda133be6 = $(`<div id="html_e671076fd590cc60024d468eda133be6" style="width: 100.0%; height: 100.0%;"><a href="https://www.le-train-bleu.com/fr/" target="_blank">Le Train Bleu, Gare De Lyon</a></div>`)[0];
+            popup_654995cb15371b446cc1b46dd39a8d7c.setContent(html_e671076fd590cc60024d468eda133be6);
+        
+
+        marker_826563592829a8351cecbafbe2e1dd78.bindPopup(popup_654995cb15371b446cc1b46dd39a8d7c)
+        ;
+
+        
+    
+    
+            var marker_473a5e32098820f8ed2a36adc4be03de = L.marker(
+                [48.8543, 2.3324],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_052913873c32cec703539f02a708fbb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e3cc53e3e2bd66a1348780dd0f208fc = $(`<div id="html_7e3cc53e3e2bd66a1348780dd0f208fc" style="width: 100.0%; height: 100.0%;"><a href="https://www.brasserielipp.fr/de/" target="_blank">Brasserie Lipp</a></div>`)[0];
+            popup_052913873c32cec703539f02a708fbb7.setContent(html_7e3cc53e3e2bd66a1348780dd0f208fc);
+        
+
+        marker_473a5e32098820f8ed2a36adc4be03de.bindPopup(popup_052913873c32cec703539f02a708fbb7)
+        ;
+
+        
+    
+    
+            var marker_b84f38498679483baf1c341d66dc25de = L.marker(
+                [48.8577, 2.3063],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_a11cac8397501076c7e50f3d59150858 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2825654bc4134bbef27211e6922fabe8 = $(`<div id="html_2825654bc4134bbef27211e6922fabe8" style="width: 100.0%; height: 100.0%;"><a href="https://brasseriethoumieux.fr/" target="_blank">Brasserie Thoumieux</a></div>`)[0];
+            popup_a11cac8397501076c7e50f3d59150858.setContent(html_2825654bc4134bbef27211e6922fabe8);
+        
+
+        marker_b84f38498679483baf1c341d66dc25de.bindPopup(popup_a11cac8397501076c7e50f3d59150858)
+        ;
+
+        
+    
+    
+            var marker_8078777e4650098fff3dfe3584cda6d2 = L.marker(
+                [48.8538, 2.3772],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_a766c5a1091b6a8b96b432335675b29c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c71ad95a24bf1e23d2c73ae6d676ce30 = $(`<div id="html_c71ad95a24bf1e23d2c73ae6d676ce30" style="width: 100.0%; height: 100.0%;"><a href="https://www.septime-charonne.fr/" target="_blank">Septime</a></div>`)[0];
+            popup_a766c5a1091b6a8b96b432335675b29c.setContent(html_c71ad95a24bf1e23d2c73ae6d676ce30);
+        
+
+        marker_8078777e4650098fff3dfe3584cda6d2.bindPopup(popup_a766c5a1091b6a8b96b432335675b29c)
+        ;
+
+        
+    
+    
+            var marker_2d5a04f4f0f16751b8b7cc54b80e8701 = L.marker(
+                [48.8716, 2.3807],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_06a200da6cb76a0e24d9130519f9325e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1a02f778813c06f8494202201f5eede = $(`<div id="html_b1a02f778813c06f8494202201f5eede" style="width: 100.0%; height: 100.0%;"><a href="https://www.lechateaubriand.net/#" target="_blank">Le Chateaubriand</a></div>`)[0];
+            popup_06a200da6cb76a0e24d9130519f9325e.setContent(html_b1a02f778813c06f8494202201f5eede);
+        
+
+        marker_2d5a04f4f0f16751b8b7cc54b80e8701.bindPopup(popup_06a200da6cb76a0e24d9130519f9325e)
+        ;
+
+        
+    
+    
+            var marker_feb1ac94fdaa53c44cfcda0148149141 = L.marker(
+                [48.8496, 2.3547],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_048ed91f232a26e85a08a96b9adc5b48 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7396ca274207eed1309e04a844cf5111 = $(`<div id="html_7396ca274207eed1309e04a844cf5111" style="width: 100.0%; height: 100.0%;"><a href="https://tourdargent.com/en/the-tower/" target="_blank">La Tour d'argent</a></div>`)[0];
+            popup_048ed91f232a26e85a08a96b9adc5b48.setContent(html_7396ca274207eed1309e04a844cf5111);
+        
+
+        marker_feb1ac94fdaa53c44cfcda0148149141.bindPopup(popup_048ed91f232a26e85a08a96b9adc5b48)
+        ;
+
+        
+    
+    
+            var marker_8227eaa04a9c35ae9e16ef367543aafd = L.marker(
+                [48.8645, 2.3625],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_fe21ff26d9348850a15770476b5e9adb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f39f55dbc5083e4eddb447321f4fe93 = $(`<div id="html_5f39f55dbc5083e4eddb447321f4fe93" style="width: 100.0%; height: 100.0%;"><a href="https://parisbymouth.com/lami-louis/" target="_blank">L’ami Louis</a></div>`)[0];
+            popup_fe21ff26d9348850a15770476b5e9adb.setContent(html_5f39f55dbc5083e4eddb447321f4fe93);
+        
+
+        marker_8227eaa04a9c35ae9e16ef367543aafd.bindPopup(popup_fe21ff26d9348850a15770476b5e9adb)
+        ;
+
+        
+    
+    
+            var marker_a32143671fc6ed1a94da91e782defff3 = L.marker(
+                [48.8552, 2.3794],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_57907d80c14808fa6a299a6d63a5ae5c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9fa55c4da2d77099674c2868f9057b7c = $(`<div id="html_9fa55c4da2d77099674c2868f9057b7c" style="width: 100.0%; height: 100.0%;"><a href="https://restaurantlechardenoux.com/" target="_blank">Le Chardenoux</a></div>`)[0];
+            popup_57907d80c14808fa6a299a6d63a5ae5c.setContent(html_9fa55c4da2d77099674c2868f9057b7c);
+        
+
+        marker_a32143671fc6ed1a94da91e782defff3.bindPopup(popup_57907d80c14808fa6a299a6d63a5ae5c)
+        ;
+
+        
+    
+    
+            var marker_4783df0a6d75932bd28534d1ec12fbed = L.marker(
+                [48.8515, 2.3832],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_b8a8bc5e84ae6fa124b36ef14342b88a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b254e97c2313f160841623b9b1b188b5 = $(`<div id="html_b254e97c2313f160841623b9b1b188b5" style="width: 100.0%; height: 100.0%;"><a href="https://bistrotpaulbert.fr/" target="_blank">La Brasserie Paul Bert</a></div>`)[0];
+            popup_b8a8bc5e84ae6fa124b36ef14342b88a.setContent(html_b254e97c2313f160841623b9b1b188b5);
+        
+
+        marker_4783df0a6d75932bd28534d1ec12fbed.bindPopup(popup_b8a8bc5e84ae6fa124b36ef14342b88a)
+        ;
+
+        
+    
+    
+            var marker_f785dbf78df1445322373bff3c628090 = L.marker(
+                [48.8705, 2.3163],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_a5fc82bddd2d5f4af71e7f23fa016dcf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_860c5338d044720fc6770aab6b865fd1 = $(`<div id="html_860c5338d044720fc6770aab6b865fd1" style="width: 100.0%; height: 100.0%;"><a href="https://www.la-scene.paris/" target="_blank">La Scene, 32 avenue Matignon</a></div>`)[0];
+            popup_a5fc82bddd2d5f4af71e7f23fa016dcf.setContent(html_860c5338d044720fc6770aab6b865fd1);
+        
+
+        marker_f785dbf78df1445322373bff3c628090.bindPopup(popup_a5fc82bddd2d5f4af71e7f23fa016dcf)
+        ;
+
+        
+    
+    
+            var marker_1af20a3bc7a3e44eeacd17d03d202639 = L.marker(
+                [48.8611, 2.3471],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_0be38e9cea95a6297ab5332c48ae5b0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e1dd6dd7f81a2dcde9579f838c37881 = $(`<div id="html_2e1dd6dd7f81a2dcde9579f838c37881" style="width: 100.0%; height: 100.0%;">Champeaux</div>`)[0];
+            popup_0be38e9cea95a6297ab5332c48ae5b0e.setContent(html_2e1dd6dd7f81a2dcde9579f838c37881);
+        
+
+        marker_1af20a3bc7a3e44eeacd17d03d202639.bindPopup(popup_0be38e9cea95a6297ab5332c48ae5b0e)
+        ;
+
+        
+    
+    
+            var marker_70fbe3d0c417862da14b995c6e9b8f93 = L.marker(
+                [48.8672, 2.3311],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_db5a908711a6241ae3e0118e8f201cc4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e392f447f5c6bd5370deab96a5a06d70 = $(`<div id="html_e392f447f5c6bd5370deab96a5a06d70" style="width: 100.0%; height: 100.0%;">Réjane, 16 avenue de l'opera</div>`)[0];
+            popup_db5a908711a6241ae3e0118e8f201cc4.setContent(html_e392f447f5c6bd5370deab96a5a06d70);
+        
+
+        marker_70fbe3d0c417862da14b995c6e9b8f93.bindPopup(popup_db5a908711a6241ae3e0118e8f201cc4)
+        ;
+
+        
+    
+    
+            var marker_971d0b4c77263e337420722d65d9ca59 = L.marker(
+                [48.8698, 2.3246],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_42eb116a1e036e51ddb1f8633928c2ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32d2129c5fbd278f7312674f1d386780 = $(`<div id="html_32d2129c5fbd278f7312674f1d386780" style="width: 100.0%; height: 100.0%;"><a href="https://www.hotelcostes.com/en/restaurant-bar/restaurant" target="_blank">Hotel Costes</a></div>`)[0];
+            popup_42eb116a1e036e51ddb1f8633928c2ff.setContent(html_32d2129c5fbd278f7312674f1d386780);
+        
+
+        marker_971d0b4c77263e337420722d65d9ca59.bindPopup(popup_42eb116a1e036e51ddb1f8633928c2ff)
+        ;
+
+        
+    
+    
+            var marker_aa1e6287436f506b4187e360d480e76e = L.marker(
+                [48.8871, 2.3399],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_4f832c149ad8a2d0a908962676afd4f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ea8d2d1cac1107f1e15bdc2644e0425 = $(`<div id="html_6ea8d2d1cac1107f1e15bdc2644e0425" style="width: 100.0%; height: 100.0%;"><a href="https://www.hotelparticulier.com/restaurant.html" target="_blank">Hotel Particulier Montmartre</a></div>`)[0];
+            popup_4f832c149ad8a2d0a908962676afd4f3.setContent(html_6ea8d2d1cac1107f1e15bdc2644e0425);
+        
+
+        marker_aa1e6287436f506b4187e360d480e76e.bindPopup(popup_4f832c149ad8a2d0a908962676afd4f3)
+        ;
+
+        
+    
+    
+            var marker_d410bf29f31d379eb6d3b49604a64ab0 = L.marker(
+                [48.8525, 2.3288],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_965fbf0271a84c7a58ac68df1067aeee = L.popup({"maxWidth": "100%"});
+
+        
+            var html_28480d7409c0d607d4b49e1d0e4a117c = $(`<div id="html_28480d7409c0d607d4b49e1d0e4a117c" style="width: 100.0%; height: 100.0%;"><a href="https://restaurantauxpres.com/" target="_blank">Aux Pres - Cyril Lignac</a></div>`)[0];
+            popup_965fbf0271a84c7a58ac68df1067aeee.setContent(html_28480d7409c0d607d4b49e1d0e4a117c);
+        
+
+        marker_d410bf29f31d379eb6d3b49604a64ab0.bindPopup(popup_965fbf0271a84c7a58ac68df1067aeee)
+        ;
+
+        
+    
+    
+            var marker_365e40292c8b7fb56a0fc12e70026fbc = L.marker(
+                [48.8647, 2.3645],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_fd38f145395f148a835e63dc8a884e38 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b378b78bf5bc37462e8a19c3224e5b70 = $(`<div id="html_b378b78bf5bc37462e8a19c3224e5b70" style="width: 100.0%; height: 100.0%;"><a href="https://www.cloche-paris.com/" target="_blank">Chez Cloche</a></div>`)[0];
+            popup_fd38f145395f148a835e63dc8a884e38.setContent(html_b378b78bf5bc37462e8a19c3224e5b70);
+        
+
+        marker_365e40292c8b7fb56a0fc12e70026fbc.bindPopup(popup_fd38f145395f148a835e63dc8a884e38)
+        ;
+
+        
+    
+    
+            var marker_7dc84a6260009215d69375330923b994 = L.marker(
+                [48.8821, 2.3311],
+                {}
+            ).addTo(map_a4b6a4513e3378944e1c0333cf6286ba);
+        
+    
+        var popup_9caa34115c70a8729cf954bb36830fc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0cc618619cc0616c1b2aae12b0539691 = $(`<div id="html_0cc618619cc0616c1b2aae12b0539691" style="width: 100.0%; height: 100.0%;"><a href="https://www.bigmammagroup.com/fr/trattorias/pink-mamma" target="_blank">Pink Mamma</a></div>`)[0];
+            popup_9caa34115c70a8729cf954bb36830fc8.setContent(html_0cc618619cc0616c1b2aae12b0539691);
+        
+
+        marker_7dc84a6260009215d69375330923b994.bindPopup(popup_9caa34115c70a8729cf954bb36830fc8)
+        ;
+
+        
+    
+</script>
+</html>
